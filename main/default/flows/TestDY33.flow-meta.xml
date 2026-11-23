@@ -46,7 +46,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Case_test</targetReference>
+            <targetReference>asdfdas</targetReference>
         </connector>
         <inputReference>testdedd</inputReference>
     </recordCreates>
@@ -78,6 +78,16 @@
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Draft</status>
+    <subflows>
+        <name>asdfdas</name>
+        <label>asdfdas</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Case_test</targetReference>
+        </connector>
+        <flowName>Flow_3_Error</flowName>
+    </subflows>
     <subflows>
         <name>Testeeee</name>
         <label>Testeeee</label>
